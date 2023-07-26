@@ -1,0 +1,35 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.playingField{
+    display: grid;
+    justify-content: center;
+    
+ /*    grid-template-columns: repeat(8, 10px); */
+}
+button{
+   /*  min-height: 20px; */
+    color: black;
+    background-color: wheat;
+
+
+
+}
+textarea{
+    resize: none;
+}
+
+/* button:hover:disabled {
+	color: wheat;
+} */
